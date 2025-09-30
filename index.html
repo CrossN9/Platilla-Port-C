@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Portafolio Responsivo</title>
+    </head>
+    <body>
+        <header id="Inicio">
+            <img src="img/portada.jpg" alt="Logo portafolio" width="500px">
+            <h1>Portafolio Personal de Cris</h1>
+            <p>Diseñador Gráfico</p>
+        </header>
+        <nav>
+            <a href="#Inicio" target="iframe-content">Inicio</a>
+            <a href="#Proyectos" target="iframe-content">Proyectos</a>
+            <a href="#contactos" target="iframe-content">Contactos</a>
+        </nav>
+        <section id="Proyectos">
+            <div class="izquierda">
+                <h2>Enlaces Rápidos</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="proyecto1.html" target="iframe content">Ver Proyecto 1</a></li>
+                    <li><a href="proyecto2.html" target="iframe content">Ver Proyecto 2</a></li>
+                    <li><a href="proyecto3.html" target="iframe content">Ver Proyecto 3</a></li>
+                </ul>
+            </div>
+            <!-- Sección central !-->
+            <div class="centro">
+                <h2>Visualizador de Proyectos</h2>
+                <iframe name="iframe content" title="contenido" src="proyecto1.html" width="100%"></iframe>
+            </div>
+            <!-- Sección central !-->
+            <div class="derecha">
+                <h2>Galeria</h2>
+                <article>
+                    <img src="img/grafico1.jpg" alt="Imagen 1" width="100%">
+                    <p>Diseño Gráfico</p>
+                </article>
+                <article>
+                    <img src="img/grafico2.jpg" alt="Imagen 2" width="100%">
+                    <p>Promocional Fanta</p>
+                </article>
+                <article>
+                    <img src="img/grafico3.jpg" alt="Imagen 3" width="100%">
+                    <p>Herramientas de Diseño Gráfico</p>
+                </article>
+            </div>
+        </section>
+        
+        <section id="contactos" class="seccion-contacto">
+            <div>
+                <h2>Contáctame</h2>
+                
+                <ul style="list-style: none; padding: 0; margin-top: 30px; font-size: 1.1em;">
+                    <li>
+                        <strong>Correo:</strong> 
+                        <a href="mailto:correogenerico8@gmail.com" style="color: #00fc0b; text-decoration: none;">correogenerico8@gmail.com</a>
+                    </li>
+                    <li style="margin-top: 15px;">
+                        <strong>Teléfono/WhatsApp:</strong> 
+                        <a href="tel:+591 69700868" style="color: #00fc0b; text-decoration: none;">+591 69700868</a>
+                    </li>
+                    <li style="margin-top: 15px;">
+                        <strong>Behance:</strong> 
+                        <a href="https://www.linkedin.com/in/tuperfil" target="_blank" style="color: #00fc0b; text-decoration: none;">Nombre</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Mi portafolio - Todos los derechos reservados para Cristian E. Baltazar C.</p>
+        </footer>
+    </body>
+</html>
